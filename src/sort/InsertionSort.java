@@ -1,7 +1,7 @@
 package sort;
 
 public class InsertionSort {
-    public static <T extends Comparable<T>> void sort(T[] arr) {
+    public static <T extends Comparable<T>> void insertionSort(T[] arr) {
         for (int i = 1; i < arr.length; i++) {
             T toBeAdded = arr[i];
             int j = i - 1;
